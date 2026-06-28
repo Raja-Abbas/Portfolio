@@ -1,0 +1,16 @@
+{
+  "name": "Raja Abbas Affandi - Portfolio",
+  "short_name": "Raja Abbas",
+  "description": "Development Team Lead & React & Next.js Engineer Portfolio",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#030712",
+  "theme_color": "#0a84ff",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
