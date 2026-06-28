@@ -34,6 +34,9 @@ export default function ResumePage() {
             <a href={siteConfig.linkedin} className="text-blue-600">
               LinkedIn
             </a>
+            <a href={siteConfig.upwork} className="text-blue-600">
+              Upwork
+            </a>
           </div>
         </header>
 

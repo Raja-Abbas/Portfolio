@@ -78,7 +78,7 @@ export default function RootLayout({
                 addressRegion: "Khyber Pakhtunkhwa",
                 addressCountry: "Pakistan",
               },
-              sameAs: [siteConfig.linkedin, siteConfig.github],
+              sameAs: [siteConfig.linkedin, siteConfig.upwork, siteConfig.github],
               knowsAbout: siteConfig.keywords,
             }),
           }}

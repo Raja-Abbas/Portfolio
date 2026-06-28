@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Github, Linkedin, Mail } from "lucide-react";
+import { UpworkIcon } from "@/components/icons/upwork";
 import { siteConfig } from "@/lib/data";
 
 export function Footer() {
@@ -7,6 +8,7 @@ export function Footer() {
 
   const socialLinks = [
     { href: siteConfig.linkedin, icon: Linkedin, label: "LinkedIn" },
+    { href: siteConfig.upwork, icon: UpworkIcon, label: "Upwork" },
     { href: siteConfig.github, icon: Github, label: "GitHub" },
     { href: `mailto:${siteConfig.email}`, icon: Mail, label: "Email" },
   ];

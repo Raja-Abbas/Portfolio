@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Linkedin, Mail, MessageCircle, Phone, CheckCircle } from "lucide-react";
+import { UpworkIcon } from "@/components/icons/upwork";
 import { FadeIn } from "@/components/ui/fade-in";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -140,6 +141,17 @@ export function Contact() {
                     <Mail className="h-4 w-4" />
                   </div>
                   <span className="text-sm">{siteConfig.email}</span>
+                </Link>
+                <Link
+                  href={siteConfig.upwork}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 text-muted-foreground transition-colors hover:text-foreground"
+                >
+                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
+                    <UpworkIcon className="h-4 w-4" />
+                  </div>
+                  <span className="text-sm">Upwork Profile</span>
                 </Link>
                 <Link
                   href={siteConfig.linkedin}

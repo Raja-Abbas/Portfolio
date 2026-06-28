@@ -9,7 +9,9 @@ export const siteConfig = {
   whatsapp: "923160539959",
   email: "abbasaffandi2002@gmail.com",
   linkedin: "https://www.linkedin.com/in/raja-abbas-affandi/",
-  github: "https://github.com/rajaabbasaffandi",
+  upwork:
+    "https://www.upwork.com/freelancers/~011305c043ed067cec",
+  github: "https://github.com/Raja-Abbas",
   keywords: [
     "Development Team Lead",
     "React Developer",
